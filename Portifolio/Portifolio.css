@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+.menu{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 110px;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-top: 2px;
+
+   
+}
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 73%;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    color: aliceblue;
+    margin-right: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    
+}
+li:hover{
+    color: darkgray;
+}
+body{
+    background-color: rgb(105, 105, 105);
+}
+
+.inicio{
+    display: block;
+    background-color: rgb(66, 66, 66);
+    height: 600px;
+    width:auto;
+    position: static;
+}
+
+h1{
+    display: flex;
+    color: antiquewhite;
+    position: absolute;
+    left: 33%;
+    top: 1px;
+    font-size: 69px; 
+    font-family: Boldonse;
+  
+}
+h2{
+    display: flex;
+    color: antiquewhite;
+    position: absolute;
+    left: 46%;
+    top: 458px; 
+    font-size: 30px;
+}
+img{
+    image-resolution: 500px;
+    height: 310px;
+    width: 350px;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    top: 150px;
+    border: solid 5px black;
+}
+.h1{
+    display: flex;
+    color: rgb(5, 5, 5);
+    position: absolute;
+    left: 35%;
+    top: 110%; 
+    font-size: 80px;
+}
+.proj{
+    display: block;
+    background-color: rgb(134, 133, 133);
+    height: 900px;
+    width:100%;
+    padding-top: 100px;
+
+}
+.box1{
+    background-color: darkgray;
+    height: 200px;
+    width: 360px;
+    border-radius: 10px;
+    position: absolute;
+    top: 930px;
+    left: 10%;
+}
+.box2{
+    background-color: darkgray;
+    height: 200px;
+    width: 360px;
+    border-radius: 10px;
+    position: absolute;
+    top: 930px;
+    left: 40%;
+}
+.box3{
+    background-color: darkgray;
+    height: 200px;
+    width: 360px;
+    border-radius: 10px;
+    position: absolute;
+    top: 930px;
+    left: 70%;
+}.cont{
+    background-color: black;
+    height: 400px;
+    width: 100%; 
+    position: absolute;
+    top: 1300px; 
+}
+.p1{
+    position: absolute;
+    top: 1150px;
+    left: 20%;
+}
+.p2{
+    position: absolute;
+    top: 1150px;
+    left: 50%;
+}
+.p3{
+    position: absolute;
+    top: 1150px;
+    left: 80%;
+}
+
+.h1_2{
+    display: flex;
+    color: antiquewhite;
+    position: absolute;
+    left: 35%;
+    font-size: 80px;
+}
+
+
+
