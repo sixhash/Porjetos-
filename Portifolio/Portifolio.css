@@ -10,11 +10,12 @@
     display: flex;
     background-color: black;
     width: 100%;
-    height: 110px;
+    height: 125px;
     color: aliceblue;
     padding-left: 10px;
     padding-top: 2px;
-
+    position:fixed;
+    z-index: 2;
    
 }
 h3{
@@ -22,6 +23,7 @@ h3{
     align-items: center;
     justify-content: space-between;
     font-size: 25px;
+    cursor: pointer;
 
 }
 nav{
@@ -29,15 +31,31 @@ nav{
     align-items: center;
     justify-content: space-between;
     position: relative;
-    left: 73%;
+    left: 65%;
+ 
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 10px;
+    
+
+}
+a:hover{
+    transition: 0.5s;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+    height: 50px;
+    width: 60px;
 }
 
 li{
     display: inline-block;
     list-style: none;
     color: aliceblue;
-    margin-right: 10px;
-    padding-right: 10px;
+    margin-right: 5px;
+    padding-right: 5px;
     cursor: pointer;
     
 }
@@ -51,7 +69,7 @@ body{
 .inicio{
     display: block;
     background-color: rgb(66, 66, 66);
-    height: 600px;
+    height: 670px;
     width:auto;
     position: static;
 }
@@ -60,10 +78,11 @@ h1{
     display: flex;
     color: antiquewhite;
     position: absolute;
-    left: 33%;
+    left: 30%;
     top: 1px;
     font-size: 69px; 
     font-family: Boldonse;
+
   
 }
 h2{
@@ -71,17 +90,17 @@ h2{
     color: antiquewhite;
     position: absolute;
     left: 46%;
-    top: 458px; 
+    top: 568px; 
     font-size: 30px;
 }
 img{
     image-resolution: 500px;
-    height: 310px;
+    height: 330px;
     width: 350px;
     border-radius: 50%;
     position: absolute;
     left: 40%;
-    top: 150px;
+    top: 229px;
     border: solid 5px black;
 }
 .h1{
@@ -89,7 +108,7 @@ img{
     color: rgb(5, 5, 5);
     position: absolute;
     left: 35%;
-    top: 110%; 
+    top: 120%; 
     font-size: 80px;
 }
 .proj{
@@ -100,13 +119,29 @@ img{
     padding-top: 100px;
 
 }
+.p1{
+    position: absolute;
+    top: 1050px;
+    left: 20%;
+}
+.p2{
+    position: absolute;
+    top: 1050px;
+    left: 50%;
+}
+.p3{
+    position: absolute;
+    top: 1050px;
+    left: 80%;
+}
+
 .box1{
     background-color: darkgray;
     height: 200px;
     width: 360px;
     border-radius: 10px;
     position: absolute;
-    top: 930px;
+    top: 1050px;
     left: 10%;
 }
 .box2{
@@ -115,7 +150,7 @@ img{
     width: 360px;
     border-radius: 10px;
     position: absolute;
-    top: 930px;
+    top: 1050px;
     left: 40%;
 }
 .box3{
@@ -124,38 +159,58 @@ img{
     width: 360px;
     border-radius: 10px;
     position: absolute;
-    top: 930px;
+    top: 1050px;
     left: 70%;
 }.cont{
     background-color: black;
-    height: 400px;
+    height: 500px;
     width: 100%; 
     position: absolute;
-    top: 1300px; 
-}
-.p1{
-    position: absolute;
-    top: 1150px;
-    left: 20%;
-}
-.p2{
-    position: absolute;
-    top: 1150px;
-    left: 50%;
-}
-.p3{
-    position: absolute;
-    top: 1150px;
-    left: 80%;
+    top: 2280px; 
 }
 
-.h1_2{
+.cont h1{
     display: flex;
     color: antiquewhite;
     position: absolute;
-    left: 35%;
+    left: 33%;
     font-size: 80px;
 }
+.cont p{
+    list-style: none;
+    color: aliceblue;
+    margin-right: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}  
+#redes{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+} 
+hr{
+    color: aliceblue;
+}
+#contatos{
+    position: absolute;
+    left: 10%;
+    top: 60%;
+}
+.conhecimento h1{
+    display: flex;
+    color: antiquewhite;
+    position: absolute;
+    left: 23%;
+    top: 1730px;
+    font-size: 80px;
+}
+.conhecimento{
+    background-color: rgb(66, 66, 66);
+    width: 100%;
+    height: 600px;
+
+}
+
 
 
 
