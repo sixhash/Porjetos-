@@ -31,7 +31,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     position: relative;
-    left: 65%;
+    left: 68%;
  
 }
 a{
@@ -78,9 +78,9 @@ h1{
     display: flex;
     color: antiquewhite;
     position: absolute;
-    left: 30%;
-    top: 1px;
-    font-size: 69px; 
+    left: 38%;
+    top: 15px;
+    font-size: 50px; 
     font-family: Boldonse;
 
   
@@ -89,7 +89,7 @@ h2{
     display: flex;
     color: antiquewhite;
     position: absolute;
-    left: 46%;
+    left: 45%;
     top: 568px; 
     font-size: 30px;
 }
@@ -100,16 +100,16 @@ img{
     border-radius: 50%;
     position: absolute;
     left: 40%;
-    top: 229px;
+    top: 226px;
     border: solid 5px black;
 }
 .h1{
     display: flex;
     color: rgb(5, 5, 5);
     position: absolute;
-    left: 35%;
-    top: 120%; 
-    font-size: 80px;
+    left: 38%;
+    top: 77%; 
+    font-size: 70px;
 }
 .proj{
     display: block;
@@ -161,20 +161,36 @@ img{
     position: absolute;
     top: 1050px;
     left: 70%;
-}.cont{
+}
+.conhecimento h1{
+    display: flex;
+    color: antiquewhite;
+    position: absolute;
+    left: 32%;
+    top: 1600px;
+    font-size: 60px;
+}
+.conhecimento{
+    background-color: rgb(66, 66, 66);
+    width: 100%;
+    height: 700px;
+
+}
+.cont{
     background-color: black;
     height: 500px;
     width: 100%; 
     position: absolute;
-    top: 2280px; 
+    top: 2220px; 
 }
 
 .cont h1{
     display: flex;
     color: antiquewhite;
     position: absolute;
-    left: 33%;
-    font-size: 80px;
+    left: 38%;
+    top: 10px;
+    font-size: 70px;
 }
 .cont p{
     list-style: none;
@@ -183,6 +199,7 @@ img{
     padding-right: 10px;
     cursor: pointer;
 }  
+
 #redes{
     position: absolute;
     left: 10%;
@@ -196,20 +213,7 @@ hr{
     left: 10%;
     top: 60%;
 }
-.conhecimento h1{
-    display: flex;
-    color: antiquewhite;
-    position: absolute;
-    left: 23%;
-    top: 1730px;
-    font-size: 80px;
-}
-.conhecimento{
-    background-color: rgb(66, 66, 66);
-    width: 100%;
-    height: 600px;
 
-}
 
 
 
